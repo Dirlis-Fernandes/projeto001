@@ -1,0 +1,314 @@
+@charser "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+
+    --cor01: #607EA6;
+    --cor02: #295E73;
+    --cor03: #023859;
+    --cor04: #00040D;
+    --cor05: #00040D;
+}
+* li{
+    list-style: none;
+    text-align: center;
+}
+h2 {
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.301);
+}
+body {
+    background-color: var(--cor01);
+}
+header {
+    background-color: var(--cor02);
+    text-shadow: 4px 7px 10px rgba(0, 0, 0, 0.486);
+}
+#menu {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
+}
+.menuapresentacao {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+}
+.menuquemsou {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+}
+.menuformacao {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+}
+.menuexperiencias {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+}
+.menufuturo {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+}
+nav button {
+    color: white;
+    background-color: darkorange;
+    margin: 15px;
+    padding: 10px;
+    font-weight: bold;
+}
+.menuapresentacao:hover {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+}
+.menuquemsou:hover {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+}
+.menuformacao:hover {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+}
+.menuexperiencias:hover {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+}
+.menufuturo:hover {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+}
+
+header img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 15px;
+}
+header h1 {
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-weight: normal;
+}
+header p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 100px;
+    color: white;
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px ;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.596);
+}
+
+.container {
+    display: flex;
+    margin-bottom: 15px;
+}
+main article p {
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+main article h2 {
+    margin-left: 15px;
+}
+main aside ul {
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
+}
+main button {
+    color: white;
+    background-color: darkorange;
+    margin: 15px;
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
+}
+
+#formacao h2 {
+    text-align: center;
+    margin: 40px;
+    margin-top: 30px;
+}
+#formacao ul {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+    margin-bottom: 25px;
+}
+#formacao ul li {
+    font-weight: bold;
+    margin: 15px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
+
+}
+
+.habilidades {
+    text-align: center;
+}
+.habilidades h2 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.container02 li {
+    padding: 25px;
+}
+.container02 li p {
+    font-weight: bold;
+    text-align: center;
+}
+.container03 li {
+    padding: 25px;
+}
+.container03 p {
+    font-weight: bold;
+    text-align: center;
+}
+.container02 img {
+    width: 80px;
+}
+.container03 img {
+    width: 80px;
+}
+.container02 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    align-items: baseline;
+}
+.container03 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    align-items: center;
+}
+.sap li {
+    padding-bottom: 0px;
+}
+.totvs li {
+    padding-bottom: 0px ;
+}
+article h2 {
+    margin: 25px;
+    text-align: center;
+}
+#experiencias {
+    margin-bottom: 15px;
+}
+.srita01 , .tpl, .klg {
+    border: solid;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
+}
+.srita01  img{
+    width: 200px;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+.srita01 h4,h5 {
+    margin: 20px;
+}
+.tpl  img{
+    width: 200px;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+.tpl h4,h5 {
+    margin: 20px;
+}
+.klg  img{
+    width: 200px;
+    padding: 20px;
+    padding-bottom: 15px;
+}
+.klg h4,h5 {
+    margin: 20px;
+}
+hr {
+    margin: 20px;
+}
+#futuro h1 {
+    text-align: center;
+    margin: 20px;
+}
+#futuro img {
+    width: 150px;
+}
+.texto {
+    display: flex;
+}
+footer {
+    margin-top: 60px;
+    background-color: var(--cor02);
+}
+footer p {
+    display: inline-block;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+footer ul a {
+    margin: 10px;
+    text-decoration: none;
+    color:white;
+}
+.fim  {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: normal;;
+}
+.fim p {
+    padding: 3px;
+}
